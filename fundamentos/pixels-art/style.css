@@ -1,0 +1,71 @@
+.color {
+    border: black solid 1px;
+    height: 50px;
+    width: 50px;
+    background-color: 'black';
+    display: inline-block;
+}
+
+#title {
+    margin-left: 15px;
+}
+
+#pixel-board {
+    width: 210px;
+    height: 210px;
+    margin-left: 18px;
+    margin-top: 20px;
+}
+
+.pixel {
+    background-color: white;
+    float:left;
+    line-height: 0px;
+    line-clamp: 0px;
+    width: 35px;
+    height: 35px;
+    border: black solid 1px;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+}
+
+body {
+    background-image: url('https://cdn.wallpapersafari.com/89/84/CWUkmX.jpg');
+    display: flex;
+    align-items: center;
+}
+
+#clear-board {
+    background-color: rgba(125, 81, 247, 0.253);
+    width: 100px;
+    height: 30px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+#clear-board:hover {
+    background-color: rgb(69, 70, 124);
+    cursor: pointer;
+}
+
+#color-palette:hover {
+    cursor: pointer;
+}
+
+#container {
+    background-color: rgb(187, 241, 237);
+    width: 300px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 300px;
+    border-radius: 10px;
+    padding: 20px;
+    padding-left: 90px;
+}
+
+#color-palette {
+    align-self: center;
+}

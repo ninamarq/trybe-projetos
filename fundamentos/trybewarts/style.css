@@ -1,0 +1,170 @@
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+}
+
+#trybewarts-header-title {
+  color: white;
+  font-size: 50px;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(241, 235, 235);
+}
+
+.form-h1 {
+  margin-left: 40%;
+}
+
+.trybewarts-login {
+  display: flex;
+  align-items: center;
+}
+
+#botaologin {
+  color: white;
+  background-color: rgb(66, 3, 124);
+  border: 0 none;
+}
+
+#botaologin:hover {
+  background-color: rgb(25, 2, 46);
+  transition: 1s;
+}
+
+.login {
+  border-radius: 35px;
+  padding: 10px 15px;
+  margin-inline: 5px;
+  border: 0 none;
+  outline: none;
+  box-shadow: 2px 2px 2px rgb(0, 0, 0.2);
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
+main #evaluation-form {
+  width: 675px;
+  display: flex;
+  justify-content: stretch;
+  flex-direction: column;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+  display: flex;
+  justify-content: end;
+  padding: 10px;
+}
+
+.container-name {
+  display: flex;
+  margin-left: 80px;
+}
+
+.container-info {
+  display: flex;
+  margin-left: 80px;
+}
+
+.container-family {
+  display: inline;
+  flex-direction: column;
+  margin: 10px;
+  margin-left: 60px;
+}
+
+.btnform {
+  font-size: 30px;
+  margin-inline: 5px;
+  border: 0 none;
+  border-radius: 5px;
+  margin-top: 10px;
+  outline: none;
+  box-shadow: 2px 2px 2px rgb(0, 0, 0.2);
+}
+
+.house {
+  font-size: 30px;
+  border: 0 none;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding-inline: 80px;
+  outline: none;
+  box-shadow: 2px 2px 2px rgb(0, 0, 0.2);
+}
+
+.labelhouse {
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.container-select {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.input-family {
+  margin-bottom: 20px;
+}
+
+.input-checkbox {
+  margin-bottom: 55px;
+}
+
+.container-checkbox {
+  margin: 10px;
+}
+
+.rate {
+  margin-left: 80px;
+}
+
+#textarea-container {
+  display: flex;
+}
+
+.textarea {
+  margin-left: 80px;
+  resize: 500;
+}
+
+#label-infos {
+  margin-left: 80px;
+}
+
+#submit-btn {
+  width: 100%;
+  height: 40px;
+  margin-left: 80px;
+  color: white;
+  background-color: rgb(200, 162, 200);
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px rgb(0, 0, 0.2);
+}
+
+#submit-btn:hover {
+  background-color: rgb(25, 2, 46);
+  transition: 1s;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  background-color: rgb(50, 167, 145);
+}
+
+#req21 {
+  display: none;
+}

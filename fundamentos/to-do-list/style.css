@@ -1,0 +1,12 @@
+.liTag {
+    background-color: rgb(0, 255, 149);
+    text-decoration: none;
+}
+
+.selected {
+    background-color: rgb(128, 128, 128);
+}
+
+.completed {
+    text-decoration: line-through;
+}
