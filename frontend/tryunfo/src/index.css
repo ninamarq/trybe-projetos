@@ -1,0 +1,42 @@
+#root {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    line-height: 1.5;
+    color: rgb(77, 80, 78);
+}
+
+#title {
+    text-align: center;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+    line-height: 50px;
+    border: 5px solid rgb(82, 133, 109);
+    border-radius: 10px;
+}
+
+button {
+    width: fit-content;
+}
+
+.container {
+    display: inline-block;
+    margin-inline: 100px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(194, 255, 235, 0.418);
+    width: 250px;
+    height: fit-content;
+    padding: 20px;
+    margin: 20px;
+    border: 10px solid rgb(0, 58, 112);
+    border-radius: 10px;
+}

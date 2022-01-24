@@ -1,0 +1,136 @@
+body {
+  background-color: rgb(48, 48, 48);
+  color:rgb(211, 211, 211);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.button {
+  color: rgb(211, 211, 211);
+  font-weight: 200;
+  background-color: rgb(50, 68, 45);
+  border-color: 1px solid white;
+  border-radius: 5px;
+  width: 150px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  align-self: center;
+}
+
+.button:disabled {
+  background-color: rgba(42, 99, 22, 0.644);
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: rgb(31, 73, 16);
+}
+
+.spotify-icon {
+  border-radius: 40px;
+}
+
+.loading {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.header-tune {
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-basis: 100%;
+  background-color: rgb(50, 68, 45);
+  justify-items: space-between;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+
+input {
+  width: 300px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.login-div {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid rgb(26, 26, 26);
+  border-radius: 10px;
+  color: rgb(26, 26, 26);
+  background-color: rgb(126, 126, 126);
+  height: 200px;
+  width: 500px;
+  padding: 50px;
+  margin: 100px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.app-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 100%;
+  background-color: rgb(76, 102, 69);
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+
+.result {
+  display: inline;
+  text-align: center;
+}
+
+.albums-card {
+  display: inline-flex;
+  flex-direction: column;
+  width: 250px;
+  height: fit-content;
+  margin: 30px;
+  padding: 15px;
+  background-color: rgba(105, 107, 104, 0.753);
+  border: 2px solid rgb(211, 211, 211);
+  border-radius: 10px;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.albums-card:hover {
+  background-color: rgb(105, 107, 104);
+  cursor: pointer;
+}
+
+.music-card {
+  display: inline-flex;
+  flex-direction: column;
+  width: fit-content;
+  height: 250px;
+  margin: 10px;
+  padding: 15px;
+  background-color: rgba(105, 107, 104, 0.753);
+  border: 2px solid rgb(211, 211, 211);
+  border-radius: 10px;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}

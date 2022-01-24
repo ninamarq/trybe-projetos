@@ -1,0 +1,12 @@
+footer {
+  background-color: #f88909;
+  bottom: 0;
+  box-sizing: border-box;
+  display: flex;
+  height: 50px;
+  justify-content: space-evenly;
+  left: 0;
+  padding: 6px;
+  position: fixed;
+  width: 100%;
+}

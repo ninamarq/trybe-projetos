@@ -1,0 +1,20 @@
+.done-recipe {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.containerCardDone {
+    flex-direction: column;
+}
+
+.filter-btn {
+    width: 100%;
+    background-color: #F88909;
+    color: rgb(255, 255, 255);
+    padding: 5px 15px;
+    margin: 4px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.outerContainer {
+  align-items: center;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.title {
+  background-color: #212121;
+  border-radius: 10px;
+  color: #f88909;
+  font-size: 2.3em;
+  padding: 7px;
+}
+
+.category {
+  color: #aaa;
+  margin-top: 15px;
+}
+
+.outerContainer img {
+  border-radius: 13px;
+  box-shadow: 5px 5px 15px -1px rgba(255, 255, 255, 0.2);
+  margin-top: 15px;
+}
+
+.outerContainer p {
+  width: 300px;
+  padding: 0px;
+}
+
+.favoriteAndShare {
+  align-self: flex-end;
+  margin-top: 25px;
+}
+
+iframe {
+  margin-top: 50px;
+}
+
+.instructionsP {
+  color: rgb(236, 236, 236);
+  line-height: 18px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  text-align: justify;
+}
+
+.startBtn {
+  background-color: #4caf50;
+  border: none;
+  bottom: 0;
+  color: white;
+  display: inline-block;
+  font-size: 16px;
+  padding: 15px 32px;
+  position: fixed;
+  text-align: center;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  width: 100%;
+}
+
+.startBtn:hover {
+  background-color: #296e2a;
+  color: white;
+}
+
+input[ type = 'checkbox' ] {
+  margin-right: 5px;
+}

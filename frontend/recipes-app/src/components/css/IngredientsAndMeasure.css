@@ -1,0 +1,21 @@
+.ingredientDone {
+  text-decoration: line-through;
+}
+
+.ingredientStyle {
+  margin-top: 10px;
+  font-family: sans-serif;
+  font-size: 1.5em;
+  color: white;
+}
+
+.list {
+
+}
+
+.list li {
+  font-size: 1.3em;
+  margin-top: 7px;
+  text-align: start;
+  color: white;
+}

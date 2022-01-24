@@ -1,0 +1,42 @@
+.containerCardDone h3, p, spam {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    max-width: 150px;
+    color: rgb(250, 250, 250);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.all-cards {
+    display: inline;
+}
+
+.container-card-done {
+    background-color: #f888093a;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 150px;
+}
+
+.container-card-done input {
+    border-radius: 10px;
+}
+
+.containerCardDone { 
+    border: 0px;
+    padding: 0px;
+    cursor: pointer;
+    margin-bottom: 25px;
+    width: fit-content;
+    justify-content: center;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+};
