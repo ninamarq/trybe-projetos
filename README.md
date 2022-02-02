@@ -6,7 +6,7 @@ Neste repositório, será encontrado todos os projetos feitos até então no cur
 
 Módulo 1:     Fundamentos de desenvolvimento web    ✔️
 
-Módulo 2:     Desenvolvimento Front-end
+Módulo 2:     Desenvolvimento Front-end             ✔️
 
 Módulo 3:     Desenvolvimento Back-end
 
