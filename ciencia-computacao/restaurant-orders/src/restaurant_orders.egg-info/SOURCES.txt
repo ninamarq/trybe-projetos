@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/analyze_log.py
+src/inventory_control.py
+src/main.py
+src/track_orders.py
+src/restaurant_orders.egg-info/PKG-INFO
+src/restaurant_orders.egg-info/SOURCES.txt
+src/restaurant_orders.egg-info/dependency_links.txt
+src/restaurant_orders.egg-info/requires.txt
+src/restaurant_orders.egg-info/top_level.txt
